@@ -1,0 +1,36 @@
+{
+  "name": "silvertreeofaman",
+  "version": "1.0.0",
+  "description": "Simulator part of Y86 Simulator",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krchoi-listen/SilverTreeOfAman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/krchoi-listen/SilverTreeOfAman/issues"
+  },
+  "homepage": "https://github.com/krchoi-listen/SilverTreeOfAman#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^7.0.2"
+  }
+}
