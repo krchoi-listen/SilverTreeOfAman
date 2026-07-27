@@ -10,7 +10,7 @@ class ExecuteInstructionSchema {
         if (typeof parsed.instruction !== "string" || parsed.instruction.trim().length === 0) {
             return null;
         }
-        return { instruction: parsed.instruction };
+        return { instruction: parsed.instruction, op1: parsed.op1, op2: parsed.op2 };
     }
 }
 exports.ExecuteInstructionSchema = ExecuteInstructionSchema;
